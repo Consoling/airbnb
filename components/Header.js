@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from "next/legacy/image";
+import profilePic from '../logo.png';
 import { SearchIcon,
          GlobeAltIcon,
          MenuIcon,
@@ -15,7 +16,7 @@ function Header() {
       <div className='relative flex items-center h-10 cursor-pointer
       my-auto'>
         <Image 
-        src = " https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_B%C3%A9lo.svg/2560px-Airbnb_Logo_B%C3%A9lo.svg.png" 
+        src = {profilePic} 
         layout = "fill"
         objectFit = "contain"
         objectPosition = "left"
