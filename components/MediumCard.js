@@ -7,6 +7,7 @@ function MediumCard({img, title}) {
             <Image 
             src={img}
             layout="fill"
+            alt="MdCard Images"
             className='rounded-xl'
             />
         </div>
